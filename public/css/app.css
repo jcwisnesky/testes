@@ -1,0 +1,114 @@
+/* Tag Selectors */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 90%; /* More responsive */
+    padding: 20px;
+}
+
+input, button {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #5c6cb8;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #027570;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 100%; /* More responsive */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #5c6cb8;
+    color: white;
+}
+
+/* Class Selectors */
+.acao-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.acao-buttons a {
+    background-color: #007bff;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.acao-buttons a:last-child {
+    background-color: #dc3545;
+}
+
+.acao-buttons a:hover {
+    opacity: 0.8;
+}
+
+.alert {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* More responsive */
+}
+
+.input-group div {
+    flex: 1;
+    margin-right: 10px;
+    min-width: 200px; /* Prevent fields from becoming too small */
+}
+
+.input-group div:last-child {
+    margin-right: 0;
+}
